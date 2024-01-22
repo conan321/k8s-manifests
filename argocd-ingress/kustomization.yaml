@@ -1,0 +1,5 @@
+kind: Kustomization
+
+resources:
+- ingress.yaml
+- tls-example-cert.yaml
