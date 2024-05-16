@@ -2,7 +2,7 @@ Install loki and promtail
 ```bash
 $ helm repo add grafana https://grafana.github.io/helm-charts
 $ helm repo update
-$ helm install --values values.yaml loki grafana/loki -n monitoring
+$ helm install --values values.yaml loki grafana/loki -n monitoring --version 5.48.0
 $ helm upgrade --install promtail grafana/promtail -n monitoring
 
 Import dashboard by json file
